@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1a1a1a;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+body.dark {
+  background: #111;
+  color: #f0f0f0;
+}
+
+body.light {
+  background: #fff;
+  color: #1a1a1a;
+}
